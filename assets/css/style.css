@@ -4,6 +4,11 @@ h1{
     margin-top: 3%;
 }
 
+.banner{
+    height: 200px;
+    width: auto;
+}
+
 .container{
     padding-left: 12%;
     padding-right: 12%;
