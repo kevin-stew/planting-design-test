@@ -1,0 +1,16 @@
+/* *{border:red 1px solid} */
+
+h1{
+    margin-top: 3%;
+}
+
+.container{
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom:50px;
+}
+
+hr{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
