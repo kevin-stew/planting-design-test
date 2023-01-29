@@ -21,3 +21,9 @@ hr{
 .black{
     color: black;
 }
+
+.model3d{
+    width: 40vw;
+    height: 50vh;
+    border: 1px black dashed;
+}

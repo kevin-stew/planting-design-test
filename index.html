@@ -326,7 +326,42 @@
         </tbody>
       </table>
 
+<br>
+      <h4>3D items</h4>
+      <p>
+          Just a test, just for fun :) 
+      </p>
+      <br>
+      <div class="d-flex flex-row justify-content-between">
+      <div>
+        <h6>Client Grill</h6>
+        <model-viewer src="assets/3D/primo_grill.glb" 
+                    shadow-intensity="2" 
+                    camera-orbit="45deg 70deg 100%"
+                    class="model3d"
+                    camera-controls
+                    touch-action="pan-x"
+                    interaction-prompt-style="basic"
+                    >
+        </div>                    
+        <div>
+        <h6>Client Mailbox</h6>
+        <!-- rotation-per-second=".1rad"
+        auto-rotate
+        touch-action="pan-y"
+        auto-rotate-delay="1000" -->
+        <model-viewer src="assets/3D/mailbox_subdivision.glb" 
+                    shadow-intensity="2" 
+                    camera-orbit="-40deg 70deg 100%"
+                    class="model3d"
+                    camera-controls
+                    interaction-prompt-style="basic"
+                    >
+          </div>
+        </div>    
+
 </div>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 </body>
