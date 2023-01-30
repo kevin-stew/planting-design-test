@@ -19,14 +19,61 @@
     <img src="/assets/images/side_north_proposed.png" class="d-block w-100" alt="no /">
 </div> -->
 
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Stewart Residence</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav navbar-custom">
+
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Project Contrat</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Site Visit</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Site Analysis</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" 
+          role="button" data-bs-toggle="dropdown" aria-expanded="false">Concept Design</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Initial Concept - 011923</a></li>
+            <li><a class="dropdown-item disabled" href="#">Revision #1 - xxxxxx</a></li>
+            <li><a class="dropdown-item disabled" href="#">Revision #2 - xxxxxx</a></li>
+            <li><a class="dropdown-item disabled" href="#">Final Concept - xxxxxx</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-current="page" href="#">CDs & Specifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-current="page" href="#">Close Out</a>
+        </li>
+
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
 <div class="container d-flex flex-column justify-content center">
-    <h1>Stewart Residence - Planting Concept</h1>
+    <h1>Initial Planting Concept</h1>
     <p class="lead">01/19/2023: First draft of a planting plan based on several cleint conversations.</p>
 
     <hr class="mt-1">
     <h4>The Site</h4>
     <p>
-        A single family residence in the greater Greenville, SC region.
+        A single family residence located in the greater Greenville, SC region.
     </p>
     <img src="assets/images/plan_existing.png" alt="The site">
 
@@ -343,23 +390,23 @@
                     touch-action="pan-x"
                     interaction-prompt-style="basic"
                     >
-        </div>                    
-        <div>
-        <h6>Client Mailbox</h6>
-        <!-- rotation-per-second=".1rad"
-        auto-rotate
-        touch-action="pan-y"
-        auto-rotate-delay="1000" -->
-        <model-viewer src="assets/3D/mailbox_subdivision.glb" 
-                    shadow-intensity="2" 
-                    camera-orbit="-40deg 70deg 100%"
-                    class="model3d"
-                    camera-controls
-                    interaction-prompt-style="basic"
-                    >
-          </div>
-        </div>    
+        </div>
 
+        <div>
+          <h6>Client Mailbox</h6>
+          <!-- rotation-per-second=".1rad"
+          auto-rotate
+          touch-action="pan-y"
+          auto-rotate-delay="1000" -->
+          <model-viewer src="assets/3D/mailbox_subdivision.glb" 
+                      shadow-intensity="2" 
+                      camera-orbit="-40deg 70deg 100%"
+                      class="model3d"
+                      camera-controls
+                      interaction-prompt-style="basic"
+                      >
+        </div>
+      </div>    
 </div>
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
